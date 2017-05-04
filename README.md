@@ -1,34 +1,30 @@
 # DbSplunk Anypoint Connector
 
-[Connector description including destination service or application with]
+Collect and index any machine-generated data from virtually any source or location in real time. This includes data streaming from packaged and custom applications, application servers, web servers, databases, wire data from networks, virtual machines, telecoms equipment, operating systems, sensors and much more. Just point Splunk Enterprise at your data and it will immediately start collecting and indexing—so you can start searching and analyzing.
 
 # Mule supported versions
 Examples:
-Mule 3.4.x, 3.5.x
-Mule 3.4.1
+Mule 3.5.x or Above 
 
-# [Destination service or application name] supported versions
-Example:
-Oracle E-Business Suite 12.1 and above.
+# Compatibility
 
-#Service or application supported modules
-Example:
-Oracle CRM
-Oracle Financials
-or 
-Salesforce API v.24
-Salesforce Metadata API
+The Splunk Connector has been tested compatible with:
+
+Splunk Enterprise versions 6.2, 6.3 and 6.4
+Splunk SDK for Java v1.5.0
 
 
 # Installation 
-For beta connectors you can download the source code and build it with devkit to find it available on your local repository. Then you can add it to Studio
 
-For released connectors you can download them from the update site in Anypoint Studio. 
-Open Anypoint Studio, go to Help → Install New Software and select Anypoint Connectors Update Site where you’ll find all avaliable connectors.
+Click Help > Install New Software.
 
-#Usage
-For information about usage our documentation at http://github.com/mulesoft/db-splunk.
+Set Work with to Anypoint Connectors Update Site.
+
+Click Add : https://github.com/karimezzine/db-splunk/raw/master/target/update-site
+
+Click Next, Next, I accept the terms of the license agreement, Finish, and restart Studio when prompted.
+
 
 # Reporting Issues
 
-We use GitHub:Issues for tracking issues with this connector. You can report new issues at this link http://github.com/mulesoft/db-splunk/issues.
+We use GitHub:Issues for tracking issues with this connector. You can report new issues at this link https://github.com/karimezzine/db-splunk/issues
