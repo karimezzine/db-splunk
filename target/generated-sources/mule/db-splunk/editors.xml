@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<namespace xmlns="http://www.mulesoft.org/schema/mule/tooling.attributes" xmlns:mule="http://www.mulesoft.org/schema/mule/core" url="http://www.mulesoft.org/schema/mule/db-splunk" prefix="db-splunk">
+  <global-cloud-connector versions="[3.5.0,8.0.0]" caption="DbSplunk" description="" icon="" localId="parentConfig" image="" abstract="true" extends="http://www.mulesoft.org/schema/mule/db-splunk/abstractDb-splunkConnectorGeneric"></global-cloud-connector>
+  <global-cloud-connector versions="[3.5.0,8.0.0]" caption="DbSplunk: Configuration" description="Global Configuration configuration information." icon="icons/theme.classic/db-splunk-connector-small.png" localId="config" image="icons/theme.classic/db-splunk-connector-large.png" abstract="false" extends="http://www.mulesoft.org/schema/mule/db-splunk/parentConfig" connectivityTesting="off" metaData="static" metaDataKeyDisplay="DISPLAY_NAME" supportsUserDefinedMetaData="false">
+    <attribute-category caption="General" description="Db-splunk configuration properties.">
+      <group id="db-splunkGenericProperties" caption="Basic Settings">
+        <name name="name" caption="Name" description="Give a name to this configuration so it can be later referenced by config-ref." required="true"></name>
+      </group>
+      <group id="general" caption="General">
+        <string name="host" caption="Host" description="Greeting message." supportsExpressions="false" required="true" javaType="java.lang.String"></string>
+        <integer min="0" step="1" name="port" caption="Port" description="" supportsExpressions="false" required="true" javaType="int"></integer>
+        <password name="password" caption="Password" description="Reply message." supportsExpressions="false" required="true" javaType="java.lang.String"></password>
+        <string name="username" caption="Username" description="" supportsExpressions="false" required="true" javaType="java.lang.String"></string>
+      </group>
+    </attribute-category>
+  </global-cloud-connector>
+  <cloud-connector caption="Abstractdb-splunkconnectorgeneric" description="Interact with Db-splunk." icon="icons/theme.classic/db-splunk-connector-small.png" localId="abstractDb-splunkConnectorGeneric" image="icons/theme.classic/db-splunk-connector-large.png" abstract="true">
+    <attribute-category caption="General" description="General.">
+      <group id="abstractDb-splunkConnectorGeneric" caption="Basic Settings">
+        <globalRef requiredType="http://www.mulesoft.org/schema/mule/db-splunk/config" name="config-ref" caption="Connector Configuration" description="Specify which configuration to use for this invocation." required="true"></globalRef>
+      </group>
+    </attribute-category>
+  </cloud-connector>
+  <cloud-connector versions="[3.5.0,8.0.0]" aliasId="org.mule.tooling.ui.modules.core.pattern.db-splunk" caption="DbSplunk" description="" icon="icons/theme.classic/db-splunk-connector-small.png" localId="db-splunk-connector" image="icons/theme.classic/db-splunk-connector-large.png" extends="http://www.mulesoft.org/schema/mule/db-splunk/abstractDb-splunkConnectorGeneric">
+    <attribute-category caption="General" description="General.">
+      <group id="db-splunkConnectorGeneric" caption="Basic Settings">
+        <modeSwitch alwaysCombo="true" name="Db-splunk operations to execute" caption="Operation" description="Operation.">
+          <no-operation abstractElement="http://www.mulesoft.org/schema/mule/db-splunk/abstractDb-splunkConnectorGeneric" versions="[3.5.0,8.0.0]" connector-name="processor"></no-operation>
+          <mode modeId="http://www.mulesoft.org/schema/mule/db-splunk/add-data-to-index" modeLabel="Add data to index"></mode>
+        </modeSwitch>
+      </group>
+    </attribute-category>
+  </cloud-connector>
+  <cloud-connector returnType="void" caption="Add Data To Index" icon="icons/theme.classic/db-splunk-connector-small.png" localId="add-data-to-index" image="icons/theme.classic/db-splunk-connector-large.png" abstract="true" extends="http://www.mulesoft.org/schema/mule/db-splunk/abstractDb-splunkConnectorGeneric" metaData="static">
+    <attribute-category caption="General" description="General.">
+      <group id="general" caption="General">
+        <string name="data" caption="Data" description="" required="true" javaType="java.lang.String"></string>
+        <string name="index" caption="Index" description="" required="true" javaType="java.lang.String"></string>
+      </group>
+    </attribute-category>
+  </cloud-connector>
+</namespace>
