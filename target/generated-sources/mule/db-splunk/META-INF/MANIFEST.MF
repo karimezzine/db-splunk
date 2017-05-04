@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: DbSplunk
 Bundle-SymbolicName: org.mule.tooling.ui.contribution.db-splunk.3.5.0;singleton:=true
-Bundle-Version: 1.0.0.201705041429
+Bundle-Version: 1.0.0.201705041659
 Bundle-Activator: org.mule.tooling.ui.contribution.DbSplunkActivator
 Bundle-Vendor: 
 Require-Bundle: org.eclipse.ui,

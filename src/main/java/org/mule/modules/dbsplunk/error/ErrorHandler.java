@@ -1,3 +1,6 @@
+/**
+ *
+ */
 package org.mule.modules.dbsplunk.error;
 
 import org.mule.api.annotations.Handle;

@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?metadataRepository version='1.1.0'?>
-<repository name='file:/C:/Users/kae/AnypointStudio/workspace2/db-splunk-connector/target/update-site/ - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
+<repository name='file:/C:/Users/kae/git/db-splunk/target/update-site/ - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1493904576388'/>
+    <property name='p2.timestamp' value='1493913568652'/>
     <property name='p2.compressed' value='false'/>
   </properties>
   <units size='4'>
-    <unit id='org.mule.tooling.ui.contribution.db-splunk.3.5.0' version='1.0.0.201705041429'>
-      <update id='org.mule.tooling.ui.contribution.db-splunk.3.5.0' range='[0.0.0,1.0.0.201705041429)' severity='0'/>
+    <unit id='org.mule.tooling.ui.contribution.db-splunk.3.5.0' version='1.0.0.201705041659'>
+      <update id='org.mule.tooling.ui.contribution.db-splunk.3.5.0' range='[0.0.0,1.0.0.201705041659)' severity='0'/>
       <properties size='1'>
         <property name='org.eclipse.equinox.p2.name' value='DbSplunk'/>
       </properties>
       <provides size='3'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='org.mule.tooling.ui.contribution.db-splunk.3.5.0' version='1.0.0.201705041429'/>
-        <provided namespace='osgi.bundle' name='org.mule.tooling.ui.contribution.db-splunk.3.5.0' version='1.0.0.201705041429'/>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.mule.tooling.ui.contribution.db-splunk.3.5.0' version='1.0.0.201705041659'/>
+        <provided namespace='osgi.bundle' name='org.mule.tooling.ui.contribution.db-splunk.3.5.0' version='1.0.0.201705041659'/>
         <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
       </provides>
       <requires size='3'>
@@ -22,7 +22,7 @@
         <required namespace='osgi.bundle' name='org.mule.tooling.core' range='1.0.0'/>
       </requires>
       <artifacts size='1'>
-        <artifact classifier='osgi.bundle' id='org.mule.tooling.ui.contribution.db-splunk.3.5.0' version='1.0.0.201705041429'/>
+        <artifact classifier='osgi.bundle' id='org.mule.tooling.ui.contribution.db-splunk.3.5.0' version='1.0.0.201705041659'/>
       </artifacts>
       <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
       <touchpointData size='1'>
@@ -31,26 +31,26 @@
             true
           </instruction>
           <instruction key='manifest'>
-            Bundle-SymbolicName: org.mule.tooling.ui.contribution.db-splunk.3.5.0;singleton:=true&#xA;Bundle-Version: 1.0.0.201705041429
+            Bundle-SymbolicName: org.mule.tooling.ui.contribution.db-splunk.3.5.0;singleton:=true&#xA;Bundle-Version: 1.0.0.201705041659
           </instruction>
         </instructions>
       </touchpointData>
     </unit>
-    <unit id='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.jar' version='1.0.0.201705041429'>
+    <unit id='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.jar' version='1.0.0.201705041659'>
       <properties size='2'>
         <property name='org.eclipse.equinox.p2.name' value='DbSplunk Connector (Mule 3.5.0+)'/>
         <property name='org.eclipse.equinox.p2.provider' value='Mulesoft, Inc.'/>
       </properties>
       <provides size='3'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.jar' version='1.0.0.201705041429'/>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.jar' version='1.0.0.201705041659'/>
         <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
-        <provided namespace='org.eclipse.update.feature' name='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0' version='1.0.0.201705041429'/>
+        <provided namespace='org.eclipse.update.feature' name='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0' version='1.0.0.201705041659'/>
       </provides>
       <filter>
         (org.eclipse.update.install.features=true)
       </filter>
       <artifacts size='1'>
-        <artifact classifier='org.eclipse.update.feature' id='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0' version='1.0.0.201705041429'/>
+        <artifact classifier='org.eclipse.update.feature' id='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0' version='1.0.0.201705041659'/>
       </artifacts>
       <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
       <touchpointData size='1'>
@@ -66,19 +66,19 @@
         </license>
       </licenses>
     </unit>
-    <unit id='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.group' version='1.0.0.201705041429' singleton='false'>
-      <update id='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.group' range='[0.0.0,1.0.0.201705041429)' severity='0'/>
+    <unit id='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.group' version='1.0.0.201705041659' singleton='false'>
+      <update id='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.group' range='[0.0.0,1.0.0.201705041659)' severity='0'/>
       <properties size='3'>
         <property name='org.eclipse.equinox.p2.name' value='DbSplunk Connector (Mule 3.5.0+)'/>
         <property name='org.eclipse.equinox.p2.provider' value='Mulesoft, Inc.'/>
         <property name='org.eclipse.equinox.p2.type.group' value='true'/>
       </properties>
       <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.group' version='1.0.0.201705041429'/>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.group' version='1.0.0.201705041659'/>
       </provides>
       <requires size='2'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.mule.tooling.ui.contribution.db-splunk.3.5.0' range='[1.0.0.201705041429,1.0.0.201705041429]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.jar' range='[1.0.0.201705041429,1.0.0.201705041429]'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.mule.tooling.ui.contribution.db-splunk.3.5.0' range='[1.0.0.201705041659,1.0.0.201705041659]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.jar' range='[1.0.0.201705041659,1.0.0.201705041659]'>
           <filter>
             (org.eclipse.update.install.features=true)
           </filter>
@@ -91,16 +91,16 @@
         </license>
       </licenses>
     </unit>
-    <unit id='file:/C:/Users/kae/AnypointStudio/workspace2/db-splunk-connector/target/classes/category.xml.org.mule.modules' version='1.0.0.2--cKMybj7735G3C3A5A7K'>
+    <unit id='file:/C:/Users/kae/git/db-splunk/target/classes/category.xml.org.mule.modules' version='1.0.0.2--cKMybj7735G3C3A5ECK'>
       <properties size='2'>
         <property name='org.eclipse.equinox.p2.name' value='Community'/>
         <property name='org.eclipse.equinox.p2.type.category' value='true'/>
       </properties>
       <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='file:/C:/Users/kae/AnypointStudio/workspace2/db-splunk-connector/target/classes/category.xml.org.mule.modules' version='1.0.0.2--cKMybj7735G3C3A5A7K'/>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='file:/C:/Users/kae/git/db-splunk/target/classes/category.xml.org.mule.modules' version='1.0.0.2--cKMybj7735G3C3A5ECK'/>
       </provides>
       <requires size='1'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.group' range='[1.0.0.201705041429,1.0.0.201705041429]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.mule.tooling.ui.extension.db-splunk-connector.3.5.0.feature.group' range='[1.0.0.201705041659,1.0.0.201705041659]'/>
       </requires>
       <touchpoint id='null' version='0.0.0'/>
     </unit>
